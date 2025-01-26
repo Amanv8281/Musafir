@@ -1,0 +1,219 @@
+@font-face
+{
+	src: url('../css/Courgette-Regular.ttf') format("truetype");
+	font-family: 'courgette';
+}
+.cstm-bg{background-color:rgba(220, 53, 69, .5) !important; }
+.ice
+{background-image: url(img/ice.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ min-height: 85vh;}
+ .m-btn
+ {background: rgba(245, 119, 45, .6) !important;
+border:2px solid #fff;
+border-radius:0px !important;
+border-top-left-radius: 20px !important;
+border-bottom-right-radius: 20px !important;
+}
+.m-btn:hover
+{background-color:rgb(175, 80, 25) !important;}
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .zoomIn 
+{
+	visibility: visible;
+}
+.img-fixed
+{
+	background:url(img/raft.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+
+}
+.why-musafir
+{
+	min-height: 60vh;
+}
+.flt-bg
+{
+	background:url(img/flight-bg.JPG);
+	background-repeat: no-repeat;
+	//background-attachment: fixed;
+	background-size: cover;
+}
+.bg-app
+{
+	background:url(img/sunset-beach-chairs.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.trns-bg
+{
+	border: #fff 2px solid;
+	border-radius: 4px;
+}
+
+.delay0-5
+{
+	animation-delay: .3s !important;
+}
+.delay1
+{
+	animation-delay: .6s !important;
+}
+.delay1-5
+{
+	animation-delay: .9s !important;
+}
+.delay2
+{
+	animation-delay: 1.2s !important;
+}
+.delay2-5
+{
+	animation-delay: 1.5s !important;
+}
+.delay3
+{
+	animation-delay: 1.8s !important;
+}
+.f-bg
+{
+	background:url(img/footer-bg.jpg);
+	background-repeat: no-repeat;
+	//background-attachment: fixed;
+	background-size: cover;
+	//min-height:35vh;
+
+}
+.deco
+{
+	text-decoration: none !important;
+}
+.b-bottom
+{
+	border-bottom: 1px #fff solid;
+	
+}
+/*
+.f-l
+{
+	float: left !important;
+	display: inline-block !important;
+	position: relative !important;
+}
+*/
+/*
+<a href="https://www.facebook.com/verma.borndevil.1" class="fab fa-facebook-square text-white"></a>
+<a href="https://www.facebook.com/verma.borndevil.1" class="fab fa-twitter-square text-white"></a>
+<a href="https://www.facebook.com/verma.borndevil.1" class="fab fa-instagram text-white"></a>
+<a href="https://www.facebook.com/verma.borndevil.1" class="fab fa-pinterest-square text-white"></a>
+<a href="https://www.facebook.com/verma.borndevil.1" class="fab fa-linkedin text-white"></a>
+*/
+.contact-us
+{
+	
+	
+	position: sticky;
+	top:45%;	
+	margin-left: -55%;
+	z-index: 999;
+	display:flex;
+	transform:rotate(90deg); 
+
+}
+.pos-relative
+{
+	
+	
+	position: absolute;;
+	z-index: 999;
+	top: 47%;
+}
+.pos-absolute
+{
+	position: fixed;
+	z-index: 999;
+	margin:0px;
+	padding:0px;
+}
+.cus-sticky
+{
+	position:sticky;
+}
+/*@media (max-width: 640px)
+{
+.m-contact
+{
+	position: sticky;
+	top:45%;	
+	margin-left: -56%;
+	z-index: 999;
+	display:flex;
+	transform:rotate(90deg);
+}
+
+
+
+}*/
+.gradient1
+{
+	background-image: linear-gradient(to top right, #f25d35, #d22536);
+}
+.gradient2
+{
+	background-image: linear-gradient(to bottom left, #f25d35, #d22536);
+}
+.s-btn
+{
+	background-color: #cd2838;
+}
+.j-bg
+{
+	background-image: url(img/Bateaux-New-York.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+.btn-outline-white
+{
+	border: solid 1px #fff;
+	color:#fff;
+}
+.btn-outline-white:hover
+{
+	background: #fff;
+	color: #000;
+}
+.crd-hov:hover
+{
+	box-shadow: 0px 9px 20px -12px rgba(0, 0, 0, .35);
+}
+.cour-font
+{
+	font-family: courgette;
+	
+}
+.font-light
+{
+	font-weight: lighter;
+}
+.border-b
+{
+	border-bottom: rgb(85, 85, 85) 3px solid;
+}
+.border-w-0
+{
+	border: 0px solid #fff !important;
+}
+.border-w
+{
+	border: 6px solid #fff !important;
+}
+.bg-mywhite
+{
+	background-color: #fff !important; 
+}
